@@ -1,2 +1,1 @@
-# base-project
-Base files for any web project
+# mini-nature-temp
