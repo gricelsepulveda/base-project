@@ -19,7 +19,11 @@ module.exports = function(grunt) {
         options: {
           noCache: true,
           style: 'compressed',
-          sourcemap: 'none'
+          sourcemap: 'none',
+          trace: true,
+          check: true,
+          compass: true,
+          debugInfo: true
         },
         files: {
           'dist/styles/fontawesome-5.css': 'src/styles/fontawesome-5.scss',
