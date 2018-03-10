@@ -21,13 +21,12 @@ module.exports = function(grunt) {
           style: 'compressed',
           sourcemap: 'none',
           trace: true,
-          check: true,
-          compass: true,
-          debugInfo: true
+          debugInfo: true,
+          compass: true
         },
         files: {
           'dist/styles/fontawesome-5.css': 'src/styles/fontawesome-5.scss',
-          'dist/styles/mn-styles.css': 'src/styles/mn-styles.scss'
+          'dist/styles/mn-styles.css': 'src/styles/mn-styles.scss',
         }
       }
     },
